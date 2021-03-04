@@ -17,6 +17,7 @@
                 "-file-line-error",
                 "-pdf",
                 "-xelatex",
+                "-f",
                 "-outdir=%OUTDIR%",
                 "%DOC%"
             ],

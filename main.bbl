@@ -1,0 +1,34 @@
+\begin{thebibliography}{4}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{DOI: #1}\else
+  \providecommand{\doi}{DOI: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Li, et~al.(2017)Li and Liu]{adaptive}
+Li R, Liu A X.
+\newblock Adaptively secure conjunctive query processing over encrypted data
+  for cloud computing[C].
+\newblock 2017 IEEE 33rd International Conference on Data Engineering (ICDE):
+\newblock
+\newblock volume~1, 2017: 697-708.
+\newblock \doi{10.1109/ICDE.2017.122}.
+
+\bibitem[Manolakis, et~al.(2005)Manolakis, Ingle, and Kogon]{Manolakis2005}
+Manolakis D G, Ingle V K, Kogon S M.
+\newblock Statistical and Adaptive Signal Processing[M].
+\newblock Norwood: Artech House, Inc., 2005.
+
+\bibitem[Vetterli, et~al.(2014)Vetterli, Kovacevic, and Goyal]{Vetterli2014}
+Vetterli M, Kovacevic J, Goyal V K.
+\newblock Foundations of Signal Processing[M].
+\newblock Cambridge: Cambridge University Press, 2014.
+
+\bibitem[Lee(2016)]{Lee2016}
+Lee Z.
+\newblock GB/T 7714-2015 参考文献 BiBTeX 样式[M/OL].
+\newblock 2016.
+\newblock \url{https://github.com/zepinglee/gbt7714-bibtex-style}.
+\newblock \doi{fuck}.
+
+\end{thebibliography}
