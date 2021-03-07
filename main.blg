@@ -18,45 +18,63 @@ Database file #1: bib/mybib.bib
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 You can't pop an empty literal stack for entry adaptive
 while executing---line 1708 of file bib/gbt-7714-2015-numerical.bst
-You've used 4 entries,
+You can't pop an empty literal stack for entry Song
+while executing---line 1708 of file bib/gbt-7714-2015-numerical.bst
+You can't pop an empty literal stack for entry Goh_forward_index
+while executing---line 1708 of file bib/gbt-7714-2015-numerical.bst
+You can't pop an empty literal stack for entry Goh_forward_index
+while executing---line 1708 of file bib/gbt-7714-2015-numerical.bst
+You can't pop an empty literal stack for entry ryu_multikeyword
+while executing---line 1708 of file bib/gbt-7714-2015-numerical.bst
+You can't pop an empty literal stack for entry Li_first_fuzzy_keyword
+while executing---line 1708 of file bib/gbt-7714-2015-numerical.bst
+You can't pop an empty literal stack for entry Kuzu_second_similarity_search
+while executing---line 1708 of file bib/gbt-7714-2015-numerical.bst
+You can't pop an empty literal stack for entry Wang_first_ranked_search
+while executing---line 1708 of file bib/gbt-7714-2015-numerical.bst
+You can't pop an empty literal stack for entry Xu_modify_Cao_ranked_search
+while executing---line 1708 of file bib/gbt-7714-2015-numerical.bst
+You can't pop an empty literal stack for entry Pappas_based_on_Raykova_work
+while executing---line 1708 of file bib/gbt-7714-2015-numerical.bst
+You've used 29 entries,
             3412 wiz_defined-function locations,
-            754 strings with 6114 characters,
-and the built_in function-call counts, 7954 in all, are:
-= -- 124
-> -- 1074
-< -- 691
-+ -- 369
-- -- 19
-* -- 97
-:= -- 948
-add.period$ -- 16
-call.type$ -- 4
-change.case$ -- 5
-chr.to.int$ -- 340
-cite$ -- 4
-duplicate$ -- 749
-empty$ -- 165
-format.name$ -- 22
-if$ -- 1695
+            959 strings with 13336 characters,
+and the built_in function-call counts, 80655 in all, are:
+= -- 1098
+> -- 11383
+< -- 7237
++ -- 3843
+- -- 226
+* -- 937
+:= -- 9435
+add.period$ -- 130
+call.type$ -- 29
+change.case$ -- 54
+chr.to.int$ -- 3561
+cite$ -- 29
+duplicate$ -- 7698
+empty$ -- 1261
+format.name$ -- 253
+if$ -- 17138
 int.to.chr$ -- 1
-int.to.str$ -- 5
+int.to.str$ -- 30
 missing$ -- 2
-newline$ -- 33
-num.names$ -- 12
-pop$ -- 374
+newline$ -- 209
+num.names$ -- 98
+pop$ -- 3783
 preamble$ -- 1
-purify$ -- 4
+purify$ -- 29
 quote$ -- 0
-skip$ -- 736
+skip$ -- 7647
 stack$ -- 0
-substring$ -- 343
-swap$ -- 9
-text.length$ -- 6
+substring$ -- 3618
+swap$ -- 60
+text.length$ -- 33
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 22
+type$ -- 197
 warning$ -- 0
-while$ -- 13
+while$ -- 102
 width$ -- 0
-write$ -- 71
-(There was 1 error message)
+write$ -- 533
+(There were 10 error messages)

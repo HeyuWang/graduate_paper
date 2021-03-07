@@ -1,4 +1,4 @@
-\begin{thebibliography}{4}
+\begin{thebibliography}{29}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -13,6 +13,222 @@ Li R, Liu A X.
 \newblock
 \newblock volume~1, 2017: 697-708.
 \newblock \doi{10.1109/ICDE.2017.122}.
+
+\bibitem[{Dawn Xiaoding Song}, et~al.(2000){Dawn Xiaoding Song}, {Wagner}, and
+  {Perrig}]{Song}
+{Dawn Xiaoding Song}, {Wagner} D, {Perrig} A.
+\newblock Practical techniques for searches on encrypted data[C].
+\newblock
+\newblock Proceeding 2000 IEEE Symposium on Security and Privacy. S P 2000,
+  2000: 44-55.
+\newblock \doi{10.1109/SECPRI.2000.848445}.
+
+\bibitem[Goh(2003)]{Goh_forward_index}
+Goh E J.
+\newblock Secure Indexes
+\newblock [M], 2003.
+
+\bibitem[Bloom(1970)]{bloom_filter}
+Bloom B H.
+\newblock Space/time trade-offs in hash coding with allowable errors[J].
+\newblock Commun. ACM.
+\newblock 1970.
+
+\bibitem[Chang, et~al.(2005)Chang and Mitzenmacher]{Chang_invert_index}
+Chang Y C, Mitzenmacher M.
+\newblock Privacy preserving keyword searches on remote encrypted data[C]//
+\newblock Ioannidis J, Keromytis A, Yung M.
+\newblock Applied Cryptography and Network Security.
+\newblock Berlin, Heidelberg: Springer Berlin Heidelberg, 2005: 442--455.
+
+\bibitem[Curtmola, et~al.(2006)Curtmola, Garay, Kamara, and
+  Ostrovsky]{Security_model}
+Curtmola R, Garay J A, Kamara S, et~al.
+\newblock Searchable symmetric encryption: Improved definitions and efficient
+  constructions.[J/OL].
+\newblock IACR Cryptology ePrint Archive.
+\newblock 2006, 2006:\penalty0 210.
+\newblock
+  \url{http://dblp.uni-trier.de/db/journals/iacr/iacr2006.html#CurtmolaGKO06}.
+
+\bibitem[Golle, et~al.(2004)Golle, Staddon, and
+  Waters]{first_multikeyword_scheme}
+Golle P, Staddon J, Waters B.
+\newblock Secure conjunctive keyword search over encrypted data[C]//
+\newblock Jakobsson M, Yung M, Zhou J.
+\newblock Applied Cryptography and Network Security.
+\newblock Berlin, Heidelberg: Springer Berlin Heidelberg, 2004: 31--45.
+
+\bibitem[Ballard, et~al.(2005)Ballard, Kamara, and
+  Monrose]{second_multikeyword_scheme}
+Ballard L, Kamara S, Monrose F.
+\newblock Achieving efficient conjunctive keyword searches over encrypted
+  data[C]//
+\newblock Qing S, Mao W, L{\'o}pez J, et~al.
+\newblock Information and Communications Security.
+\newblock Berlin, Heidelberg: Springer Berlin Heidelberg, 2005: 414--426.
+
+\bibitem[Byun, et~al.(2006)Byun, Lee, and Lim]{byun_multikeyword}
+Byun J W, Lee D H, Lim J.
+\newblock Efficient conjunctive keyword search on encrypted data storage
+  system[C]//
+\newblock Atzeni A S, Lioy A.
+\newblock Public Key Infrastructure.
+\newblock Berlin, Heidelberg: Springer Berlin Heidelberg, 2006: 184--196.
+
+\bibitem[{Ryu}, et~al.(2007){Ryu} and {Takagi}]{ryu_multikeyword}
+{Ryu} E, {Takagi} T.
+\newblock Efficient conjunctive keyword-searchable encryption[C].
+\newblock 21st International Conference on Advanced Information Networking and
+  Applications Workshops (AINAW'07):
+\newblock
+\newblock volume~1, 2007: 409-414.
+\newblock \doi{10.1109/AINAW.2007.166}.
+
+\bibitem[Cash, et~al.(2013)Cash, Jarecki, Jutla, Krawczyk, Ro{\c{s}}u, and
+  Steiner]{Cash_sublinear_multikeyword}
+Cash D, Jarecki S, Jutla C, et~al.
+\newblock Highly-scalable searchable symmetric encryption with support for
+  boolean queries[C]//
+\newblock Canetti R, Garay J A.
+\newblock Advances in Cryptology -- CRYPTO 2013.
+\newblock Berlin, Heidelberg: Springer Berlin Heidelberg, 2013: 353--373.
+
+\bibitem[Lai, et~al.(2018)Lai, Patranabis, Sakzad, Liu, Mukhopadhyay,
+  Steinfeld, Sun, Liu, and Zuo]{Lai_modify_cash_hide_result}
+Lai S, Patranabis S, Sakzad A, et~al.
+\newblock Result pattern hiding searchable encryption for conjunctive
+  queries[C/OL].
+\newblock Proceedings of the 2018 ACM SIGSAC Conference on Computer and
+  Communications Security.
+\newblock New York, NY, USA: Association for Computing Machinery, 2018:
+  745–762.
+\newblock \url{https://doi.org/10.1145/3243734.3243753}.
+\newblock \doi{10.1145/3243734.3243753}.
+
+\bibitem[Sun, et~al.(2016)Sun, Liu, Sakzad, Steinfeld, and
+  Yuen]{Sun_OXTbased_multi-user_fine-grained}
+Sun S F, Liu J K, Sakzad A, et~al.
+\newblock An efficient non-interactive multi-client searchable encryption with
+  support for boolean queries[C]//
+\newblock Askoxylakis I, Ioannidis S, Katsikas S, et~al.
+\newblock Computer Security -- ESORICS 2016.
+\newblock Cham: Springer International Publishing, 2016: 154--172.
+
+\bibitem[Wang, et~al.(2017)Wang, Wang, Sun, Liu, Susilo, and
+  Chen]{Wang_fix_sun_reduce_communication_cost}
+Wang Y, Wang J, Sun S F, et~al.
+\newblock Towards multi-user searchable encryption supporting boolean query and
+  fast decryption[C]//
+\newblock Okamoto T, Yu Y, Au M H, et~al.
+\newblock Provable Security.
+\newblock Cham: Springer International Publishing, 2017: 24--38.
+
+\bibitem[Kamara, et~al.(2017)Kamara and
+  Moataz]{Kamara_OXTbased_disjunctive_multikeyword}
+Kamara S, Moataz T.
+\newblock Boolean searchable symmetric encryption with worst-case sub-linear
+  complexity[C]//
+\newblock Coron J S, Nielsen J B.
+\newblock Advances in Cryptology -- EUROCRYPT 2017.
+\newblock Cham: Springer International Publishing, 2017: 94--124.
+
+\bibitem[{Li}, et~al.(2010){Li}, {Wang}, {Wang}, {Cao}, {Ren}, and
+  {Lou}]{Li_first_fuzzy_keyword}
+{Li} J, {Wang} Q, {Wang} C, et~al.
+\newblock Fuzzy keyword search over encrypted data in cloud computing[C].
+\newblock
+\newblock 2010 Proceedings IEEE INFOCOM, 2010: 1-5.
+\newblock \doi{10.1109/INFCOM.2010.5462196}.
+
+\bibitem[B{\"o}sch, et~al.(2011)B{\"o}sch, Brinkman, Hartel, and
+  Jonker]{Brinkman_wildcard_search}
+B{\"o}sch C, Brinkman R, Hartel P, et~al.
+\newblock Conjunctive wildcard search over encrypted data[C]//
+\newblock Jonker W, Petkovi{\'{c}} M.
+\newblock Secure Data Management.
+\newblock Berlin, Heidelberg: Springer Berlin Heidelberg, 2011: 114--127.
+
+\bibitem[{Kuzu}, et~al.(2012){Kuzu}, {Islam}, and
+  {Kantarcioglu}]{Kuzu_second_similarity_search}
+{Kuzu} M, {Islam} M S, {Kantarcioglu} M.
+\newblock Efficient similarity search over encrypted data[C].
+\newblock
+\newblock 2012 IEEE 28th International Conference on Data Engineering, 2012:
+  1156-1167.
+\newblock \doi{10.1109/ICDE.2012.23}.
+
+\bibitem[{Wang}, et~al.(2010){Wang}, {Cao}, {Li}, {Ren}, and
+  {Lou}]{Wang_first_ranked_search}
+{Wang} C, {Cao} N, {Li} J, et~al.
+\newblock Secure ranked keyword search over encrypted cloud data[C].
+\newblock
+\newblock 2010 IEEE 30th International Conference on Distributed Computing
+  Systems, 2010: 253-262.
+\newblock \doi{10.1109/ICDCS.2010.34}.
+
+\bibitem[Ananthi, et~al.(2011)Ananthi, Sendil, and Karthik]{Cao_ranked_search}
+Ananthi S, Sendil M S, Karthik S.
+\newblock Privacy preserving keyword search over encrypted cloud data[C]//
+\newblock Abraham A, Lloret~Mauri J, Buford J F, et~al.
+\newblock Advances in Computing and Communications.
+\newblock Berlin, Heidelberg: Springer Berlin Heidelberg, 2011: 480--487.
+
+\bibitem[{Xu}, et~al.(2012){Xu}, {Kang}, {Li}, {Yow}, and
+  {Xu}]{Xu_modify_Cao_ranked_search}
+{Xu} Z, {Kang} W, {Li} R, et~al.
+\newblock Efficient multi-keyword ranked query on encrypted data in the
+  cloud[C].
+\newblock
+\newblock 2012 IEEE 18th International Conference on Parallel and Distributed
+  Systems, 2012: 244-251.
+\newblock \doi{10.1109/ICPADS.2012.42}.
+
+\bibitem[Sun, et~al.(2013)Sun, Wang, Cao, Li, Lou, Hou, and
+  Li]{Sun_ranked_search}
+Sun W, Wang B, Cao N, et~al.
+\newblock Privacy-preserving multi-keyword text search in the cloud supporting
+  similarity-based ranking[C/OL].
+\newblock Proceedings of the 8th ACM SIGSAC Symposium on Information, Computer
+  and Communications Security.
+\newblock New York, NY, USA: Association for Computing Machinery, 2013:
+  71–82.
+\newblock \url{https://doi.org/10.1145/2484313.2484322}.
+\newblock \doi{10.1145/2484313.2484322}.
+
+\bibitem[{Chen}, et~al.(2016){Chen}, {Zhu}, {Shen}, {Hu}, {Guo}, {Tari}, and
+  {Zomaya}]{Chen_ranked_search}
+{Chen} C, {Zhu} X, {Shen} P, et~al.
+\newblock An efficient privacy-preserving ranked keyword search method[J].
+\newblock IEEE Transactions on Parallel and Distributed Systems.
+\newblock 2016, 27\penalty0 (4):\penalty0 951--963.
+\newblock \doi{10.1109/TPDS.2015.2425407}.
+
+\bibitem[Raykova, et~al.(2009)Raykova, Vo, Bellovin, and
+  Malkin]{Raykova_range_query_basework}
+Raykova M, Vo B, Bellovin S M, et~al.
+\newblock Secure anonymous database search[C/OL].
+\newblock Proceedings of the 2009 ACM Workshop on Cloud Computing Security.
+\newblock New York, NY, USA: Association for Computing Machinery, 2009:
+  115–126.
+\newblock \url{https://doi.org/10.1145/1655008.1655025}.
+\newblock \doi{10.1145/1655008.1655025}.
+
+\bibitem[{Pappas}, et~al.(2014){Pappas}, {Krell}, {Vo}, {Kolesnikov}, {Malkin},
+  {Choi}, {George}, {Keromytis}, and {Bellovin}]{Pappas_based_on_Raykova_work}
+{Pappas} V, {Krell} F, {Vo} B, et~al.
+\newblock Blind seer: A scalable private dbms[C].
+\newblock
+\newblock 2014 IEEE Symposium on Security and Privacy, 2014: 359-374.
+\newblock \doi{10.1109/SP.2014.30}.
+
+\bibitem[Faber, et~al.(2015)Faber, Jarecki, Krawczyk, Nguyen, Rosu, and
+  Steiner]{SkyFaber_rangeQuery_to_disjunctive_query}
+Faber S, Jarecki S, Krawczyk H, et~al.
+\newblock Rich queries on encrypted data: Beyond exact matches[C]//
+\newblock Pernul G, Y~A~Ryan P, Weippl E.
+\newblock Computer Security -- ESORICS 2015.
+\newblock Cham: Springer International Publishing, 2015: 123--145.
 
 \bibitem[Manolakis, et~al.(2005)Manolakis, Ingle, and Kogon]{Manolakis2005}
 Manolakis D G, Ingle V K, Kogon S M.

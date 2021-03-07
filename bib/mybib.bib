@@ -8,6 +8,414 @@
   pages     = {697-708},
   doi       = {10.1109/ICDE.2017.122}
 }
+
+@inproceedings{Song,
+  author    = { {Dawn Xiaoding Song} and D. {Wagner} and A. {Perrig}},
+  booktitle = {Proceeding 2000 IEEE Symposium on Security and Privacy. S P 2000},
+  title     = {Practical techniques for searches on encrypted data},
+  year      = {2000},
+  volume    = {},
+  number    = {},
+  pages     = {44-55},
+  doi       = {10.1109/SECPRI.2000.848445}
+}
+
+@misc{Goh_forward_index,
+  author       = {Eu-Jin Goh},
+  title        = {Secure Indexes},
+  howpublished = {Cryptology ePrint Archive, Report 2003/216},
+  year         = {2003},
+  note         = {\url{https://eprint.iacr.org/2003/216}}
+}
+
+@article{bloom_filter,
+  added-at  = {2010-04-06T16:43:29.000+0200},
+  author    = {Bloom, Burton H.},
+  biburl    = {https://www.bibsonomy.org/bibtex/225e0e309cf5fcc7d25c1422bdd8bfa88/chesteve},
+  interhash = {c8539667ad35bdc7779d7a8bf9276053},
+  intrahash = {25e0e309cf5fcc7d25c1422bdd8bfa88},
+  journal   = {Commun. ACM},
+  keywords  = {imported},
+  timestamp = {2010-04-06T16:43:29.000+0200},
+  title     = {Space/time trade-offs in hash coding with allowable errors},
+  year      = 1970
+}
+
+@inproceedings{Boneh_rsa_based,
+  author    = {Boneh, Dan
+and Di Crescenzo, Giovanni
+and Ostrovsky, Rafail
+and Persiano, Giuseppe},
+  editor    = {Cachin, Christian
+and Camenisch, Jan L.},
+  title     = {Public Key Encryption with Keyword Search},
+  booktitle = {Advances in Cryptology - EUROCRYPT 2004},
+  year      = {2004},
+  publisher = {Springer Berlin Heidelberg},
+  address   = {Berlin, Heidelberg},
+  pages     = {506--522},
+  abstract  = {We study the problem of searching on data that is encrypted using a public key system. Consider user Bob who sends email to user Alice encrypted under Alice's public key. An email gateway wants to test whether the email contains the keyword ``urgent'' so that it could route the email accordingly. Alice, on the other hand does not wish to give the gateway the ability to decrypt all her messages. We define and construct a mechanism that enables Alice to provide a key to the gateway that enables the gateway to test whether the word ``urgent'' is a keyword in the email without learning anything else about the email. We refer to this mechanism as Public Key Encryption with keyword Search. As another example, consider a mail server that stores various messages publicly encrypted for Alice by others. Using our mechanism Alice can send the mail server a key that will enable the server to identify all messages containing some specific keyword, but learn nothing else. We define the concept of public key encryption with keyword search and give several constructions.},
+  isbn      = {978-3-540-24676-3}
+}
+
+@inproceedings{Boneh_ref_himself,
+  author    = {Boneh, Dan
+and Franklin, Matt},
+  editor    = {Kilian, Joe},
+  title     = {Identity-Based Encryption from the Weil Pairing},
+  booktitle = {Advances in Cryptology --- CRYPTO 2001},
+  year      = {2001},
+  publisher = {Springer Berlin Heidelberg},
+  address   = {Berlin, Heidelberg},
+  pages     = {213--229},
+  abstract  = {We propose a fully functional identity-based encryption scheme (IBE). The scheme has chosen ciphertext security in the random oracle model assuming an elliptic curve variant of the computational Diffie-Hellman problem. Our system is based on the Weil pairing. We give precise definitions for secure identity based encryption schemes and give several applications for such systems.},
+  isbn      = {978-3-540-44647-7}
+}
+
+@inproceedings{Chang_invert_index,
+  author    = {Chang, Yan-Cheng
+and Mitzenmacher, Michael},
+  editor    = {Ioannidis, John
+and Keromytis, Angelos
+and Yung, Moti},
+  title     = {Privacy Preserving Keyword Searches on Remote Encrypted Data},
+  booktitle = {Applied Cryptography and Network Security},
+  year      = {2005},
+  publisher = {Springer Berlin Heidelberg},
+  address   = {Berlin, Heidelberg},
+  pages     = {442--455}
+}
+
+@article{Security_model,
+  added-at  = {2018-08-14T00:00:00.000+0200},
+  author    = {Curtmola, Reza and Garay, Juan A. and Kamara, Seny and Ostrovsky, Rafail},
+  biburl    = {https://www.bibsonomy.org/bibtex/2f1345dc7af18107e078931a76c4cce54/dblp},
+  ee        = {http://eprint.iacr.org/2006/210},
+  interhash = {e6c397d8b99e559c3aa182e89878a08c},
+  intrahash = {f1345dc7af18107e078931a76c4cce54},
+  journal   = {IACR Cryptology ePrint Archive},
+  keywords  = {dblp},
+  pages     = 210,
+  timestamp = {2018-08-15T11:49:04.000+0200},
+  title     = {Searchable Symmetric Encryption: Improved Definitions and Efficient Constructions.},
+  url       = {http://dblp.uni-trier.de/db/journals/iacr/iacr2006.html#CurtmolaGKO06},
+  volume    = 2006,
+  year      = 2006
+}
+
+@inproceedings{first_multikeyword_scheme,
+  author    = {Golle, Philippe
+and Staddon, Jessica
+and Waters, Brent},
+  editor    = {Jakobsson, Markus
+and Yung, Moti
+and Zhou, Jianying},
+  title     = {Secure Conjunctive Keyword Search over Encrypted Data},
+  booktitle = {Applied Cryptography and Network Security},
+  year      = {2004},
+  publisher = {Springer Berlin Heidelberg},
+  address   = {Berlin, Heidelberg},
+  pages     = {31--45},
+  abstract  = {We study the setting in which a user stores encrypted documents (e.g. e-mails) on an untrusted server. In order to retrieve documents satisfying a certain search criterion, the user gives the server a capability that allows the server to identify exactly those documents. Work in this area has largely focused on search criteria consisting of a single keyword. If the user is actually interested in documents containing each of several keywords (conjunctive keyword search) the user must either give the server capabilities for each of the keywords individually and rely on an intersection calculation (by either the server or the user) to determine the correct set of documents, or alternatively, the user may store additional information on the server to facilitate such searches. Neither solution is desirable; the former enables the server to learn which documents match each individual keyword of the conjunctive search and the latter results in exponential storage if the user allows for searches on every set of keywords.},
+  isbn      = {978-3-540-24852-1}
+}
+
+@inproceedings{second_multikeyword_scheme,
+  author    = {Ballard, Lucas
+and Kamara, Seny
+and Monrose, Fabian},
+  editor    = {Qing, Sihan
+and Mao, Wenbo
+and L{\'o}pez, Javier
+and Wang, Guilin},
+  title     = {Achieving Efficient Conjunctive Keyword Searches over Encrypted Data},
+  booktitle = {Information and Communications Security},
+  year      = {2005},
+  publisher = {Springer Berlin Heidelberg},
+  address   = {Berlin, Heidelberg},
+  pages     = {414--426},
+  abstract  = {We present two provably secure and efficient schemes for performing conjunctive keyword searches over symmetrically encrypted data. Our first scheme is based on Shamir Secret Sharing and provides the most efficient search technique in this context to date. Although the size of its trapdoors is linear in the number of documents being searched, we empirically show that this overhead remains reasonable in practice. Nonetheless, to address this limitation we provide an alternative based on bilinear pairings that yields constant size trapdoors. This latter construction is not only asymptotically more efficient than previous secure conjunctive keyword search schemes in the symmetric setting, but incurs significantly less storage overhead. Additionally, unlike most previous work, our constructions are proven secure in the standard model.},
+  isbn      = {978-3-540-32099-9}
+}
+
+@inproceedings{byun_multikeyword,
+  author    = {Byun, Jin Wook
+and Lee, Dong Hoon
+and Lim, Jongin},
+  editor    = {Atzeni, Andrea S.
+and Lioy, Antonio},
+  title     = {Efficient Conjunctive Keyword Search on Encrypted Data Storage System},
+  booktitle = {Public Key Infrastructure},
+  year      = {2006},
+  publisher = {Springer Berlin Heidelberg},
+  address   = {Berlin, Heidelberg},
+  pages     = {184--196},
+  abstract  = {We study conjunctive keyword search scheme allowing for remote search of data containing each of several keywords on encrypted data storage system. A data supplier first uploads encrypted data on a storage system, and then a user of the storage system searches data containing keywords over encrypted data hence insider (such as an administrator of the storage system) and outsider attackers do not learn anything else about the data. Recently, Golle et al. first suggested conjunctive keyword search scheme, but the communication and storage costs linearly depend on the number of stored data in the database, hence it is not really suitable for a large scale database.},
+  isbn      = {978-3-540-35152-8}
+}
+
+@inproceedings{ryu_multikeyword,
+  author    = {E. {Ryu} and T. {Takagi}},
+  booktitle = {21st International Conference on Advanced Information Networking and Applications Workshops (AINAW'07)},
+  title     = {Efficient Conjunctive Keyword-Searchable Encryption},
+  year      = {2007},
+  volume    = {1},
+  number    = {},
+  pages     = {409-414},
+  doi       = {10.1109/AINAW.2007.166}
+}
+
+@inproceedings{Cash_sublinear_multikeyword,
+  author    = {Cash, David
+and Jarecki, Stanislaw
+and Jutla, Charanjit
+and Krawczyk, Hugo
+and Ro{\c{s}}u, Marcel-C{\u{a}}t{\u{a}}lin
+and Steiner, Michael},
+  editor    = {Canetti, Ran
+and Garay, Juan A.},
+  title     = {Highly-Scalable Searchable Symmetric Encryption with Support for Boolean Queries},
+  booktitle = {Advances in Cryptology -- CRYPTO 2013},
+  year      = {2013},
+  publisher = {Springer Berlin Heidelberg},
+  address   = {Berlin, Heidelberg},
+  pages     = {353--373},
+  abstract  = {This work presents the design and analysis of the first searchable symmetric encryption (SSE) protocol that supports conjunctive search and general Boolean queries on outsourced symmetrically- encrypted data and that scales to very large databases and arbitrarily-structured data including free text search. To date, work in this area has focused mainly on single-keyword search. For the case of conjunctive search, prior SSE constructions required work linear in the total number of documents in the database and provided good privacy only for structured attribute-value data, rendering these solutions too slow and inflexible for large practical databases.},
+  isbn      = {978-3-642-40041-4}
+}
+
+@inproceedings{Lai_modify_cash_hide_result,
+  author    = {Lai, Shangqi and Patranabis, Sikhar and Sakzad, Amin and Liu, Joseph K. and Mukhopadhyay, Debdeep and Steinfeld, Ron and Sun, Shi-Feng and Liu, Dongxi and Zuo, Cong},
+  title     = {Result Pattern Hiding Searchable Encryption for Conjunctive Queries},
+  year      = {2018},
+  isbn      = {9781450356930},
+  publisher = {Association for Computing Machinery},
+  address   = {New York, NY, USA},
+  url       = {https://doi.org/10.1145/3243734.3243753},
+  doi       = {10.1145/3243734.3243753},
+  abstract  = {The recently proposed Oblivious Cross-Tags (OXT) protocol (CRYPTO 2013) has broken new ground in designing efficient searchable symmetric encryption (SSE) protocol with support for conjunctive keyword search in a single-writer single-reader framework. While the OXT protocol offers high performance by adopting a number of specialised data-structures, it also trades-off security by leaking 'partial' database information to the server. Recent attacks have exploited similar partial information leakage to breach database confidentiality. Consequently, it is an open problem to design SSE protocols that plug such leakages while retaining similar efficiency. In this paper, we propose a new SSE protocol, called Hidden Cross-Tags (HXT), that removes 'Keyword Pair Result Pattern' (KPRP) leakage for conjunctive keyword search. We avoid this leakage by adopting two additional cryptographic primitives - Hidden Vector Encryption (HVE) and probabilistic (Bloom filter) indexing into the HXT protocol. We propose a 'lightweight' HVE scheme that only uses efficient symmetric-key building blocks, and entirely avoids elliptic curve-based operations. At the same time, it affords selective simulation-security against an unbounded number of secret-key queries. Adopting this efficient HVE scheme, the overall practical storage and computational overheads of HXT over OXT are relatively small (no more than 10% for two keywords query, and 21% for six keywords query), while providing a higher level of security.},
+  booktitle = {Proceedings of the 2018 ACM SIGSAC Conference on Computer and Communications Security},
+  pages     = {745–762},
+  numpages  = {18},
+  keywords  = {searchable encryption, leakage profile, hidden vector encryption},
+  location  = {Toronto, Canada},
+  series    = {CCS '18}
+}
+
+@inproceedings{Sun_OXTbased_multi-user_fine-grained,
+  author    = {Sun, Shi-Feng
+and Liu, Joseph K.
+and Sakzad, Amin
+and Steinfeld, Ron
+and Yuen, Tsz Hon},
+  editor    = {Askoxylakis, Ioannis
+and Ioannidis, Sotiris
+and Katsikas, Sokratis
+and Meadows, Catherine},
+  title     = {An Efficient Non-interactive Multi-client Searchable Encryption with Support for Boolean Queries},
+  booktitle = {Computer Security -- ESORICS 2016},
+  year      = {2016},
+  publisher = {Springer International Publishing},
+  address   = {Cham},
+  pages     = {154--172},
+  abstract  = {Motivated by the recent searchable symmetric encryption protocol of Cash et al., we propose a new multi-client searchable encryption protocol in this work. By tactfully leveraging the RSA-function, our protocol avoids the per-query interaction between the data owner and the client, thus reducing the communication overhead significantly and eliminating the need of the data owner to provide the online services to clients at all times. Furthermore, our protocol manages to protect the query privacy of clients to some extent, meaning that our protocol hides the exact queries from the data owner. In terms of the leakage to server, it is exactly the same as Cash et al., thus achieving the same security against the adversarial server. In addition, by employing attribute-based encryption technique, our protocol also realizes the fine-grained access control on the stored data. To be compatible with our RSA-based approach, we also present a deterministic and memory-efficient `keyword to prime' hash function, which may be of independent interest.},
+  isbn      = {978-3-319-45744-4}
+}
+
+@inproceedings{Wang_fix_sun_reduce_communication_cost,
+  author    = {Wang, Yunling
+and Wang, Jianfeng
+and Sun, Shi-Feng
+and Liu, Joseph K.
+and Susilo, Willy
+and Chen, Xiaofeng},
+  editor    = {Okamoto, Tatsuaki
+and Yu, Yong
+and Au, Man Ho
+and Li, Yannan},
+  title     = {Towards Multi-user Searchable Encryption Supporting Boolean Query and Fast Decryption},
+  booktitle = {Provable Security},
+  year      = {2017},
+  publisher = {Springer International Publishing},
+  address   = {Cham},
+  pages     = {24--38},
+  abstract  = {The single-writer/multi-reader searchable encryption (SMSE) allows an arbitrary authorized user to submit a valid search token and get the corresponding encrypted identifiers. In order to achieve fine-grained access control, the identifiers are encrypted by the attribute-based encryption. In this case, the user can decrypt a ciphertext only when the access policy in it matches the user's attribute set. However, the server unable to determine whether the user can decrypt a certain ciphertext without the knowledge of the user's attribute set. As a result, all the ciphertexts based on a search token have to be returned to the user, which causes unnecessary communication and decryption costs. In this paper, we propose a new SMSE scheme, in which the server just needs to return the ones which can be decrypted by the user rather than the whole search results. In order to achieve this goal, we present a server-side match technique with which the server can test whether the user can decrypt a ciphertext without knowing the user's attribute set. Furthermore, the decryption computation is very efficient, irrespective of the structure of access policy. Therefore, both the communication and decryption overheads are dramatically reduced in our scheme.},
+  isbn      = {978-3-319-68637-0}
+}
+
+@inproceedings{Kamara_OXTbased_disjunctive_multikeyword,
+  author    = {Kamara, Seny
+and Moataz, Tarik},
+  editor    = {Coron, Jean-S{\'e}bastien
+and Nielsen, Jesper Buus},
+  title     = {Boolean Searchable Symmetric Encryption with Worst-Case Sub-linear Complexity},
+  booktitle = {Advances in Cryptology -- EUROCRYPT 2017},
+  year      = {2017},
+  publisher = {Springer International Publishing},
+  address   = {Cham},
+  pages     = {94--124},
+  abstract  = {Recent work on searchable symmetric encryption (SSE) has focused on increasing its expressiveness. A notable example is the OXT construction (Cash et al., CRYPTO '13) which is the first SSE scheme to support conjunctive keyword queries with sub-linear search complexity. While OXT efficiently supports disjunctive and boolean queries that can be expressed in searchable normal form, it can only handle arbitrary disjunctive and boolean queries in linear time. This motivates the problem of designing expressive SSE schemes with worst-case sub-linear search; that is, schemes that remain highly efficient for any keyword query.},
+  isbn      = {978-3-319-56617-7}
+}
+
+@inproceedings{Li_first_fuzzy_keyword,
+  author    = {J. {Li} and Q. {Wang} and C. {Wang} and N. {Cao} and K. {Ren} and W. {Lou}},
+  booktitle = {2010 Proceedings IEEE INFOCOM},
+  title     = {Fuzzy Keyword Search over Encrypted Data in Cloud Computing},
+  year      = {2010},
+  volume    = {},
+  number    = {},
+  pages     = {1-5},
+  doi       = {10.1109/INFCOM.2010.5462196}
+}
+
+@inproceedings{Kuzu_second_similarity_search,
+  author    = {M. {Kuzu} and M. S. {Islam} and M. {Kantarcioglu}},
+  booktitle = {2012 IEEE 28th International Conference on Data Engineering},
+  title     = {Efficient Similarity Search over Encrypted Data},
+  year      = {2012},
+  volume    = {},
+  number    = {},
+  pages     = {1156-1167},
+  doi       = {10.1109/ICDE.2012.23}
+}
+
+@inproceedings{Brinkman_wildcard_search,
+  author    = {B{\"o}sch, Christoph
+and Brinkman, Richard
+and Hartel, Pieter
+and Jonker, Willem},
+  editor    = {Jonker, Willem
+and Petkovi{\'{c}}, Milan},
+  title     = {Conjunctive Wildcard Search over Encrypted Data},
+  booktitle = {Secure Data Management},
+  year      = {2011},
+  publisher = {Springer Berlin Heidelberg},
+  address   = {Berlin, Heidelberg},
+  pages     = {114--127},
+  abstract  = {Searchable encryption allows a party to search over encrypted data without decrypting it. Prior schemes in the symmetric setting deal only with exact or similar keyword matches. We describe a scheme for the problem of wildcard searches over encrypted data to make search queries more flexible, provide a security proof for our scheme and compare the computational, communication and space complexity with existing schemes. We develop an efficient scheme, using pseudorandom functions and Bloom filters, that supports wildcard searches over encrypted data. The scheme also supports conjunctive wildcard searches, efficient and secure updates and is more efficient than previous solutions. Besides, our construction is independent of the encryption method of the remote data and is practical to use in real world applications.},
+  isbn      = {978-3-642-23556-6}
+}
+
+@inproceedings{Wang_first_ranked_search,
+  author    = {C. {Wang} and N. {Cao} and J. {Li} and K. {Ren} and W. {Lou}},
+  booktitle = {2010 IEEE 30th International Conference on Distributed Computing Systems},
+  title     = {Secure Ranked Keyword Search over Encrypted Cloud Data},
+  year      = {2010},
+  volume    = {},
+  number    = {},
+  pages     = {253-262},
+  doi       = {10.1109/ICDCS.2010.34}
+}
+
+@inproceedings{Cao_ranked_search,
+  author    = {Ananthi, S.
+and Sendil, M. Sadish
+and Karthik, S.},
+  editor    = {Abraham, Ajith
+and Lloret Mauri, Jaime
+and Buford, John F.
+and Suzuki, Junichi
+and Thampi, Sabu M.},
+  title     = {Privacy Preserving Keyword Search over Encrypted Cloud Data},
+  booktitle = {Advances in Computing and Communications},
+  year      = {2011},
+  publisher = {Springer Berlin Heidelberg},
+  address   = {Berlin, Heidelberg},
+  pages     = {480--487},
+  abstract  = {Cloud computing enables the organizations to outsource their data by providing a service model called infrastructure as a service (IaaS). In a public cloud the infrastructure is owned and managed by a cloud service provider and is located in the provider's control. To protect the privacy of sensitive data, documents have to be encrypted before outsourcing. When the number of encrypted documents increases exponentially, the search service and retrieval becomes critical. The process of retrieving the files containing the queried keyword further incurs unnecessary network traffic, which is absolutely undesirable in pay-as-you-use cloud paradigm. In this paper, a search scheme that provides both privacy protection and rank-ordered search capability with less overhead has been proposed. Search indexes and documents are first encrypted by the data owner and then stored onto the cloud server. Retrieval results on an encrypted data and security analysis under different attack models show that data privacy can be preserved while retaining very good retrieval performance.},
+  isbn      = {978-3-642-22709-7}
+}
+
+
+@inproceedings{Xu_modify_Cao_ranked_search,
+  author    = {Z. {Xu} and W. {Kang} and R. {Li} and K. {Yow} and C. {Xu}},
+  booktitle = {2012 IEEE 18th International Conference on Parallel and Distributed Systems},
+  title     = {Efficient Multi-Keyword Ranked Query on Encrypted Data in the Cloud},
+  year      = {2012},
+  volume    = {},
+  number    = {},
+  pages     = {244-251},
+  doi       = {10.1109/ICPADS.2012.42}
+}
+
+@inproceedings{Sun_ranked_search,
+  author    = {Sun, Wenhai and Wang, Bing and Cao, Ning and Li, Ming and Lou, Wenjing and Hou, Y. Thomas and Li, Hui},
+  title     = {Privacy-Preserving Multi-Keyword Text Search in the Cloud Supporting Similarity-Based Ranking},
+  year      = {2013},
+  isbn      = {9781450317672},
+  publisher = {Association for Computing Machinery},
+  address   = {New York, NY, USA},
+  url       = {https://doi.org/10.1145/2484313.2484322},
+  doi       = {10.1145/2484313.2484322},
+  abstract  = {With the increasing popularity of cloud computing, huge amount of documents are outsourced to the cloud for reduced management cost and ease of access. Although encryption helps protecting user data confidentiality, it leaves the well-functioning yet practically-efficient secure search functions over encrypted data a challenging problem. In this paper, we present a privacy-preserving multi-keyword text search (MTS) scheme with similarity-based ranking to address this problem. To support multi-keyword search and search result ranking, we propose to build the search index based on term frequency and the vector space model with cosine similarity measure to achieve higher search result accuracy. To improve the search efficiency, we propose a tree-based index structure and various adaption methods for multi-dimensional (MD) algorithm so that the practical search efficiency is much better than that of linear search. To further enhance the search privacy, we propose two secure index schemes to meet the stringent privacy requirements under strong threat models, i.e., known ciphertext model and known background model. Finally, we demonstrate the effectiveness and efficiency of the proposed schemes through extensive experimental evaluation.},
+  booktitle = {Proceedings of the 8th ACM SIGSAC Symposium on Information, Computer and Communications Security},
+  pages     = {71–82},
+  numpages  = {12},
+  keywords  = {privacy-preserving search, cloud computing, multi-keyword search, similarity-based ranking},
+  location  = {Hangzhou, China},
+  series    = {ASIA CCS '13}
+}
+
+@article{Chen_ranked_search,
+  author  = {C. {Chen} and X. {Zhu} and P. {Shen} and J. {Hu} and S. {Guo} and Z. {Tari} and A. Y. {Zomaya}},
+  journal = {IEEE Transactions on Parallel and Distributed Systems},
+  title   = {An Efficient Privacy-Preserving Ranked Keyword Search Method},
+  year    = {2016},
+  volume  = {27},
+  number  = {4},
+  pages   = {951-963},
+  doi     = {10.1109/TPDS.2015.2425407}
+}
+
+@inproceedings{SkyFaber_rangeQuery_to_disjunctive_query,
+  author    = {Faber, Sky
+and Jarecki, Stanislaw
+and Krawczyk, Hugo
+and Nguyen, Quan
+and Rosu, Marcel
+and Steiner, Michael},
+  editor    = {Pernul, G{\"u}nther
+and Y A Ryan, Peter
+and Weippl, Edgar},
+  title     = {Rich Queries on Encrypted Data: Beyond Exact Matches},
+  booktitle = {Computer Security -- ESORICS 2015},
+  year      = {2015},
+  publisher = {Springer International Publishing},
+  address   = {Cham},
+  pages     = {123--145},
+  abstract  = {We extend the searchable symmetric encryption (SSE) protocol of [Cash et al., Crypto'13] adding support for range, substring, wildcard, and phrase queries, in addition to the Boolean queries supported in the original protocol. Our techniques apply to the basic single-client scenario underlying the common SSE setting as well as to the more complex Multi-Client and Outsourced Symmetric PIR extensions of [Jarecki et al., CCS'13]. We provide performance information based on our prototype implementation, showing the practicality and scalability of our techniques to very large databases, thus extending the performance results of [Cash et al., NDSS'14] to these rich and comprehensive query types.},
+  isbn      = {978-3-319-24177-7}
+}
+
+@inproceedings{Raykova_range_query_basework,
+  author    = {Raykova, Mariana and Vo, Binh and Bellovin, Steven M. and Malkin, Tal},
+  title     = {Secure Anonymous Database Search},
+  year      = {2009},
+  isbn      = {9781605587844},
+  publisher = {Association for Computing Machinery},
+  address   = {New York, NY, USA},
+  url       = {https://doi.org/10.1145/1655008.1655025},
+  doi       = {10.1145/1655008.1655025},
+  abstract  = {There exist many large collections of private data that must be protected on behalf of the entities that hold them or the clients they serve. However, there are also often many legitimate reasons for sharing that data in a controlled manner. How can two parties decide to share data without prior knowledge of what data they have? For example, two intelligence agencies might be willing to cooperate by sharing documents about a specific case, and need a way of determining which documents might be of interest to each other.We introduce and address the problem of allowing such entities to search each other's data securely and anonymously. We aim to protect the content of the queries, as well as the content of documents unrelated to those queries, while concealing the identity of the participants. Although there exist systems for solving similar problems, to our knowledge we are the first to address this specific need and also the first to present a secure anonymous search system that is practical for real-time querying. In order to achieve this in an efficient manner, we make use of Bloom filters [5], definitions of security for deterministic encryption [22] that we adapt and instantiate in the private key setting and of a novel encryption primitive, reroutable encryption.},
+  booktitle = {Proceedings of the 2009 ACM Workshop on Cloud Computing Security},
+  pages     = {115–126},
+  numpages  = {12},
+  keywords  = {encrypted bloom filter, encrypted search, deterministic encryption, database, anonymity, private information retrieval},
+  location  = {Chicago, Illinois, USA},
+  series    = {CCSW '09}
+}
+
+@inproceedings{Pappas_based_on_Raykova_work,
+  author    = {V. {Pappas} and F. {Krell} and B. {Vo} and V. {Kolesnikov} and T. {Malkin} and S. G. {Choi} and W. {George} and A. {Keromytis} and S. {Bellovin}},
+  booktitle = {2014 IEEE Symposium on Security and Privacy},
+  title     = {Blind Seer: A Scalable Private DBMS},
+  year      = {2014},
+  volume    = {},
+  number    = {},
+  pages     = {359-374},
+  doi       = {10.1109/SP.2014.30}
+}
 @book{Manolakis2005,
   author    = {Dimitris G. Manolakis and Vinay K. Ingle and Stephen M. Kogon},
   title     = {Statistical and Adaptive Signal Processing},
